@@ -6,6 +6,8 @@ from gensim import similarities, matutils
 from gensim.corpora import Dictionary
 import numpy as np
 from gensim.matutils import kullback_leibler, jaccard, hellinger
+import nltk
+
 
 class Parent(object):
 
@@ -200,6 +202,7 @@ class Parent(object):
         f = open("./datasets/pp/hotel_descriptions.txt", 'r')
         clean_hotel_description = []
         for line in f:
+            print(line.split(' '))
             clean_hotel_description.append(line.split(' '))
         f.close()
         f = open("./datasets/pp/hotel_attributes.txt", 'r')

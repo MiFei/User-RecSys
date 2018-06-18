@@ -1,0 +1,55 @@
+category,preference
+accomodation_type,holiday home
+accomodation_type,villa
+accomodation_type,hostel
+accomodation_type,hotel
+activity,play tennis
+activity,go skiing
+activity,play in casino
+activity,do horse riding
+activity,go cycling
+activity,go hiking
+activity,play table tennis
+outside_facility,balcony
+outside_facility,terrace
+outside_facility,patio
+outside_facility,garden
+outside_facility,beach nearby
+view,mountain view
+view,lake view
+relax_facility,massage center
+relax_facility,hot tub
+relax_facility,sauna
+relax_facility,hammam
+relax_facility,swimming pool
+relax_facility,fitness center
+relax_facility,library
+relax_facility,fireplace
+relax_facility,TV with cable channels
+relax_facility,DVD player
+hotel_facility,restaurant
+hotel_facility,laundry
+hotel_facility,ski school
+hotel_facility,lift
+hotel_facility,24-hour reception
+hotel_facility,business center
+hotel_facility,bar
+hotel_facility,safety deposit box
+hotel_facility,shuttle service
+hotel_facility,room services
+hotel_facility,parking spot
+hotel_facility,children’s playground
+hotel_facility,breakfast
+hotel_facility,pets are allowed
+room_facility,sofa
+room_facility,coffee machine
+room_facility,kitchen
+room_facility,desk
+room_facility,washing machine
+room_facility,minibar
+room_facility,refrigerator
+room_facility,microwave
+room_facility,hairdryer
+room_facility,air conditioning
+room_facility,WiFi
+room_facility,TV

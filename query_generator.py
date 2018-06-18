@@ -3,8 +3,8 @@ import numpy as np
 #DATA:
 #Note: after each list, it is indicated the amount of elements per list
 #1.ATTRIBUTES
-accomodation_type = ['holiday home', 'chalet', 'guest house', 'villa', 'bed and breakfast', 'hostel', 'apartment',
-                     'hotel', 'pet-friendly accomodation'] #9
+accomodation_type = ['holiday home',  'villa', 'hostel',
+                     'hotel'] #9
 
 city = ['Bouveret', 'Les Rasses', 'Chesières', 'Rossinière', 'Sainte-Croix', 'Vevey', 'Leysin', 'Villeneuve',
         'Lausanne', 'Bellevue', 'Saint-Cergue', 'Gryon', 'Geneva', 'Nyon', 'Les Diablerets', 'Villars-sur-Ollon', 'Bex',
@@ -12,14 +12,14 @@ city = ['Bouveret', 'Les Rasses', 'Chesières', 'Rossinière', 'Sainte-Croix', '
 activity = ['play tennis', 'go skiing', 'play in casino', 'do horse riding', 'go cycling', 'go hiking',
             'play table tennis'] #7
 outside_facility = ['sun terrace', 'balcony', 'terrace', 'patio', 'swimming pool', 'garden', 'beach nearby'] #7
-view = ['with a view', 'with a view on the mountains', 'with a view on the lake'] #3
-relax_facility = ['massage center', 'Hot Tub', 'Sauna', 'Hammam', 'swimming pool', 'fitness centre', 'library', 'Bath',
-                  'sofa', 'fireplace', 'TV with cable channels', 'DVD player', 'CD player'] #13
-hotel_facility = ['restaurant', 'laundry', 'ski school', 'lift', '24-hour reception', 'business centre', 'bar',
-                  'Safety Deposit Box', 'shuttle service', 'room services', 'parking spot', 'children’s playground',
-                  'breakfast'] #13
-room_facility = ['sofa', 'coffee machine', 'kitchen', 'private bathroom', 'desk', 'washing machine', 'minibar',
-                 'bathroom with a bath', 'refrigerator', 'microwave', 'toilet', 'hairdryer', 'air conditioning',
+view = ['with a view on the mountains', 'with a view on the lake'] #3
+relax_facility = ['massage center', 'hot tub', 'sauna', 'hammam', 'swimming pool', 'fitness center', 'library',
+                 'fireplace', 'TV with cable channels', 'DVD player'] #13
+hotel_facility = ['restaurant', 'laundry', 'ski school', 'lift', '24-hour reception', 'business center', 'bar',
+                  'safety deposit box', 'shuttle service', 'room services', 'parking spot', 'children’s playground',
+                  'breakfast', 'pets are allowed'] #13
+room_facility = ['sofa', 'coffee machine', 'kitchen', 'desk', 'washing machine', 'minibar',
+                 'refrigerator', 'microwave', 'hairdryer', 'air conditioning',
                  'WiFi', 'TV'] #15
 
 #2.EXPRESSIONS
